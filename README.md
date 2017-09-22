@@ -6,7 +6,7 @@ The default Python library for dealing with large arrays of numeric data (e.g. f
 ### What is NetCDF?
 NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
 NetCDF was developed and is maintained at Unidata. Unidata provides data and software tools for use in geoscience education and research. The NetCDF homepage may be found at http://www.unidata.ucar.edu/software/netcdf/. The NetCDF source-code is hosted at GitHub, and may be found directly at http://github.com/Unidata/netcdf-c.
-### How to deal with NetCDF data with Python?
+### How to deal with NetCDF and other data with Python?
 we mainly use netCDF4-python, NumPy and SciPy to process NetCDF and other data formats.
 * netCDF4-python
 > netcdf4-python is a Python interface to the netCDF C library. netCDF version 4 has many features not found in earlier versions of the library and is implemented on top of HDF5. This module can read and write files in both the new netCDF 4 and the old netCDF 3 format, and can create files that are readable by HDF5 clients. The API modelled after Scientific.IO.NetCDF, and should be familiar to users of that module (see more http://unidata.github.io/netcdf4-python/).
